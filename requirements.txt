@@ -1,0 +1,4 @@
+wheel
+pyautogui >= 0.9
+opencv-python >= 4
+pywin32 >=227
