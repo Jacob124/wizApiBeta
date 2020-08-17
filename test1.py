@@ -8,5 +8,8 @@ player = wizAPI.Client().register_window()
 
 # player.screenshot('ss.png')
 while True:
-  print(player.is_loading())
-  time.sleep(1)
+  print("Is Loading?", player.is_loading())
+  print("Is mana low?", player.is_mana_low())
+  print("Is health low?", player.is_health_low())
+  print("Is idle?", player.is_idle())
+  time.sleep(2)
